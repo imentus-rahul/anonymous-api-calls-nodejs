@@ -22,13 +22,11 @@ const httpsAgent = new https.Agent({
 const httpAgent = new http.Agent();
 // console.log("🚀 ~ agent:", agent);
 
-// // API Examples
-// GET IP: https://api.ipify.org
-// POST SOME RANDOM DATA: https://reqbin.com/echo/post/json // doesn't accepts calls from http (only https)
-// POST SOME RANDOM DATA: https://httpbin.org/anything // accepts calls even from http proxies
+
 
 const apiEndpoint = 'https://httpbin.org/anything'; // replace with your API endpoint
-// const apiEndpoint = 'https://api.ipify.org'; // replace with your API endpoint
+// const apiEndpoint = 'https://api.ipify.org'; // replace with your API 
+
 const data = {
     "Id": 78912,
     "Customer": "Jason Sweet",
